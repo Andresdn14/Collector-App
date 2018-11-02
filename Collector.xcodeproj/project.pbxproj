@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		048B3599217A7A4800763268 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B3598217A7A4800763268 /* AppDelegate.swift */; };
-		048B359B217A7A4800763268 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B359A217A7A4800763268 /* ViewController.swift */; };
 		048B359E217A7A4800763268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048B359C217A7A4800763268 /* Main.storyboard */; };
 		048B35A1217A7A4800763268 /* Collector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 048B359F217A7A4800763268 /* Collector.xcdatamodeld */; };
 		048B35A3217A7A4A00763268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048B35A2217A7A4A00763268 /* Assets.xcassets */; };
 		048B35A6217A7A4A00763268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048B35A4217A7A4A00763268 /* LaunchScreen.storyboard */; };
+		048B35AE217A81C000763268 /* CollectableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B35AD217A81C000763268 /* CollectableTableViewController.swift */; };
+		048B35B0217A81DD00763268 /* CreateCollectableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B35AF217A81DD00763268 /* CreateCollectableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		048B3595217A7A4800763268 /* Collector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048B3598217A7A4800763268 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		048B359A217A7A4800763268 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		048B359D217A7A4800763268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		048B35A0217A7A4800763268 /* Collector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Collector.xcdatamodel; sourceTree = "<group>"; };
 		048B35A2217A7A4A00763268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048B35A5217A7A4A00763268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048B35A7217A7A4A00763268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048B35AD217A81C000763268 /* CollectableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectableTableViewController.swift; sourceTree = "<group>"; };
+		048B35AF217A81DD00763268 /* CreateCollectableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCollectableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				048B3598217A7A4800763268 /* AppDelegate.swift */,
-				048B359A217A7A4800763268 /* ViewController.swift */,
 				048B359C217A7A4800763268 /* Main.storyboard */,
 				048B35A2217A7A4A00763268 /* Assets.xcassets */,
 				048B35A4217A7A4A00763268 /* LaunchScreen.storyboard */,
 				048B35A7217A7A4A00763268 /* Info.plist */,
 				048B359F217A7A4800763268 /* Collector.xcdatamodeld */,
+				048B35AD217A81C000763268 /* CollectableTableViewController.swift */,
+				048B35AF217A81DD00763268 /* CreateCollectableViewController.swift */,
 			);
 			path = Collector;
 			sourceTree = "<group>";
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048B35AE217A81C000763268 /* CollectableTableViewController.swift in Sources */,
+				048B35B0217A81DD00763268 /* CreateCollectableViewController.swift in Sources */,
 				048B35A1217A7A4800763268 /* Collector.xcdatamodeld in Sources */,
-				048B359B217A7A4800763268 /* ViewController.swift in Sources */,
 				048B3599217A7A4800763268 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
